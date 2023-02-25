@@ -116,13 +116,13 @@ export const TheFooter = () => {
         </div>
       </div>
       <div className='py-3 flex justify-center text-xs border-t-3 border-white'>
-        <a
+        <Link
           href="https://eremeev-dev.vercel.app/"
           className='transition-colors hover:text-toxic'
           target='_blank'
         >
           made by MAKSIM EREMEEV © { new Date().getFullYear() }
-        </a>
+        </Link>
       </div>
     </footer>
   )
