@@ -75,7 +75,7 @@ const productsSlice = createSlice({
   extraReducers: (builder) => {
     // ALL CATEGORIES
     builder.addCase(fetchProducts.pending, (state) => {
-      console.log(state)
+
     });
     builder.addCase(fetchProducts.fulfilled, (state, action) => {
       state.products = action.payload.results;
@@ -93,7 +93,7 @@ const productsSlice = createSlice({
     });
     // HOME CATEGORY
     builder.addCase(fetchHomeProducts.pending, (state) => {
-      console.log(state.homeProducts);
+
     })
     builder.addCase(fetchHomeProducts.fulfilled, (state, action) => {
       state.homeProducts = action.payload.results;

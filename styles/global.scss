@@ -39,6 +39,10 @@ nav ul {
   }
 }
 
+main {
+  min-height: calc(100vh - 70px);
+}
+
 .custom-container {
   margin: 0 auto;
   max-width: 1440px;
@@ -129,6 +133,10 @@ nav ul {
     background-color: #fff;
     pointer-events: all;
   }
+
+  @media screen and (max-width: 540px) {
+    width: 100%;
+  }
 }
 
 .ReactModal__Body--open {
@@ -154,11 +162,11 @@ nav ul {
   }
 
   &.prev {
-    @apply left-8;
+    @apply left-2 sm:left-4 lg:left-8;
   }
 
   &.next {
-    @apply right-8;
+    @apply right-2 sm:right-4 lg:right-8;
   }
 }
 

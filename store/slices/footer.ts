@@ -29,7 +29,7 @@ const footerSlice = createSlice({
 
   extraReducers: (builder) => {
     builder.addCase(fetchFooterData.pending, (state) => {
-      console.log(state)
+
     });
     builder.addCase(fetchFooterData.fulfilled, (state, action) => {
       state.footerData = action.payload;

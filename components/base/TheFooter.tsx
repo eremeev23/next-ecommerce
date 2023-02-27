@@ -19,7 +19,6 @@ export const TheFooter = () => {
   const categories = useSelector((state: any) => state.categoriesReducer?.categories);
   const footerData = useSelector((state: any) => state.footerReducer?.footerData);
 
-  console.log(footerData);
   return (
     <footer className='bg-black-600 text-white'>
       <div className='custom-container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 py-10 gap-y-10'>

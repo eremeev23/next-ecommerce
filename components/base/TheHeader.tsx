@@ -39,7 +39,7 @@ export const TheHeader = () => {
           </button>
         </div>
 
-        <div className="flex-1 flex justify-center">
+        <div className="flex-[3] flex justify-center">
           <Link href='/' className='font-bold text-2xl leading-[inherit] transition-colors hover:text-red'>
             WEAR THIS.
           </Link>

@@ -55,7 +55,7 @@ export const TheSidebar = ({ active, setActive, closeModals }) => {
       <Modal
         isOpen={childActive && !!children}
         onRequestClose={() => setChildActive(false)}
-        className='children-categories-modal'
+        className='children-categories-modal hidden sm:block'
         style={customStylesSec}
       >
         <nav>

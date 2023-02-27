@@ -25,7 +25,9 @@ export const SidebarListItem = ({ category, setChildren, setChildActive, setPare
     }
   }
 
-  const linkHref = !!parent ? `/categories/${parent}/${category.CategoryValue}` : `/categories/${category.CategoryValue}`;
+  const linkHref = !!parent
+    ? `/categories/${parent}/${category.tagCodes[0] ? category.tagCodes[0] : category.CategoryValue}`
+    : `/categories/${category.tagCodes[0] ? category.tagCodes[0] : category.CategoryValue}`;
 
   return (
     <div>

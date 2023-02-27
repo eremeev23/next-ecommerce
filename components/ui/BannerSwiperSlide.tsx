@@ -59,7 +59,7 @@ export const BannerSwiperSlide = ({ slide }: IProps) => {
           BUY NOW
         </button>
       </div>
-      <div className="absolute top-6 left-8 px-4 py-2 bg-toxic border-3 font-bold">
+      <div className="absolute top-2 sm:top-4 lg:top-6 left-2 sm:left-4 lg:left-8 px-4 py-2 bg-toxic border-3 font-bold">
         POPULAR
       </div>
     </div>
