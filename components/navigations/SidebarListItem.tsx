@@ -33,7 +33,7 @@ export const SidebarListItem = ({ category, setChildren, setChildActive, setPare
     <div>
       <Link
         href={linkHref}
-        className='block w-full text-left py-3 uppercase text-lg font-bold transition-colors hover:text-blue-600'
+        className='block w-full text-left py-3 uppercase text-lg font-bold transition-colors hover:text-blue-600 dark:hover:text-toxic'
         onMouseEnter={mouseEnterHandler}
         onMouseOver={() => setChildren ? setChildren(category.CategoriesArray) : null}
       >

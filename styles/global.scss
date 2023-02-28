@@ -17,11 +17,31 @@ body {
 
   &::-webkit-scrollbar {
     width: 4px;
+    background-color: transparent;
   }
 
   &::-webkit-scrollbar-thumb {
     background-color: #3c3c3c;
     border-radius: 60px;
+  }
+
+  &.dark {
+    background-color: #232323;
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #d3ff24;
+      border-radius: 60px;
+    }
+
+    .burger-button span {
+      background-color: #f5f5f5;
+    }
+
+    .ReactModal__Content {
+      border-right: #f5f5f5;
+      background-color: #232323 !important;
+      color: #f5f5f5;
+    }
   }
 }
 
@@ -116,7 +136,7 @@ main {
 }
 
 .ReactModal__Content {
-  position: fixed;
+  position: fixed !important;
   inset: 0 !important;
   top: 0;
   left: 0;

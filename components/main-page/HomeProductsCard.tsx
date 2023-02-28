@@ -13,7 +13,7 @@ export const HomeProductsCard = ({ product }: IProps) => {
   return (
     <Link
       href={`/categories/${product.categoryName}/${product.code}`}
-      className='block h-full px-2 py-4 border-3'
+      className='block dark:text-white dark:hover:text-black-600 dark:hover:border-white h-full px-2 py-4 border-3'
     >
       <div
         onMouseOver={() => setHover(true)}

@@ -26,7 +26,8 @@ export const MainCategoriesCard = ({ category, products }: IProps) => {
     <Link
       href={`/categories/${category.CategoryValue}`}
       className='flex-1 p-6 flex flex-col gap-6 justify-center
-              border-3 transition-colors hover:bg-toxic hover:border-black-600'
+              border-3 transition-colors dark:text-white dark:hover:text-black-600
+              hover:bg-toxic hover:border-black-600 dark:hover:border-white'
     >
       <div
         className={imgWrapper}

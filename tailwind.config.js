@@ -7,6 +7,7 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
     "./src/**/*.{html,js}"
   ],
+  darkMode: 'class',
   theme: {
     colors: {
       'black': {
@@ -16,6 +17,7 @@ module.exports = {
         800: '#101010',
         900: '#000'
       },
+      'black-transparent': 'rgba(19, 19, 19, 0.6)',
       'white': {
         100: '#fff',
         200: '#fefefe',

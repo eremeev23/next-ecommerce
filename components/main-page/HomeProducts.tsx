@@ -9,7 +9,7 @@ interface IProps {
 export const HomeProducts = ({ products }: IProps) => {
   return (
     <>
-      <h2 className='text-4xl text-center font-bold mb-8'>
+      <h2 className='text-4xl dark:text-white text-center font-bold mb-8'>
         FOR YOUR HOME
       </h2>
       <ul className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2'>
@@ -31,7 +31,7 @@ export const HomeProducts = ({ products }: IProps) => {
         }
       </ul>
       <Link
-        className='block mt-2 w-fit mx-auto text-lg font-bold transition-colors hover:text-blue-600'
+        className='block mt-2 w-fit mx-auto text-lg dark:text-white font-bold transition-colors dark:hover:text-toxic hover:text-blue-600'
         href='/categories/home'
       >
         SEE MORE

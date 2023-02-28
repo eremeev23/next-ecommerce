@@ -17,7 +17,7 @@ interface IProps {
 export const MainCategories = ({ categories, products }: IProps) => {
   return (
     <>
-      <h2 className='text-4xl text-center font-bold mb-8'>
+      <h2 className='text-4xl dark:text-white text-center font-bold mb-8'>
         POPULAR CATEGORIES
       </h2>
       <div className='hidden sm:flex items-center justify-between gap-2'>
@@ -56,7 +56,7 @@ export const MainCategories = ({ categories, products }: IProps) => {
         <div className='main-categories-swiper-pagination'></div>
       </div>
       <Link
-        className='block mt-2 w-fit mx-auto text-lg font-bold transition-colors hover:text-blue-600'
+        className='block mt-2 w-fit mx-auto text-lg font-bold dark:text-white transition-colors dark:hover:text-toxic hover:text-blue-600'
         href='/categories'
       >
         SEE ALL
